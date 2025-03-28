@@ -23,6 +23,7 @@
     "dev": "electron-forge start",
     "build": "electron-forge package",
     "build:linux": "electron-forge package --platform=linux",
+    "build:linux:arm64": "electron-forge package --platform=linux --arch=arm64",
     "build:mac": "electron-forge package --platform=darwin --arch=universal",
     "build:mac:x64": "electron-forge package --platform=darwin --arch=x64",
     "build:mac:arm64": "electron-forge package --platform=darwin --arch=arm64",
